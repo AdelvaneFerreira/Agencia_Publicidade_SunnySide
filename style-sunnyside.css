@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center; 
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none; 
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(250, 245, 245);
+}
+.midias-sociais a:hover{
+    text-decoration: underline;
+    color: #1a947c;
+}
+span:hover{
+    text-decoration: underline;
+    color: rgb(7, 7, 7);  
+}
+.sunnyside{
+    background-image: url("./assets/image-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    font-size: 16px;
+}
+.header-sunny{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   padding-top: 39px;
+}
+.header-sunny ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+  
+}
+ .header-sunny li{
+font-family: 'Barlow', sans-serif;
+font-size: 18px; 
+font-weight: 600;
+line-height: 25px;
+color: #fff;
+list-style: none;
+display: flex;
+flex-direction: row;
+margin-right: 30px;
+} 
+ .header-sunny img{
+    margin-top: 10px;
+    margin-left: 46px;
+} 
+.header-sunny button{
+    all: unset;
+    box-sizing: border-box;
+    width: 140px;
+    height: 56px;
+    border-radius: 19px;
+    background-color: #fff;
+    color: #24303E;
+    font-family: 'Fraunces', serif; 
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 32px;
+    margin-right: 48px;  
+}
+.arrow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    justify-self: center;
+    
+}
+.sunnyside h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    justify-self: center;
+    color: #fff;
+    font-family: 'Fraunces', serif; 
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 69px;
+    margin-top: 184px;
+}
+.egg, .glass-pink{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img-egg{
+    background-image: url("./assets/image-transform.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    width: 100%;
+}
+
+.egg-txt, .glass-pink-txt{
+    width: 445px;
+    height: 285px;
+    margin: 147px 110px 157px 165px;
+}
+.egg-txt h1, .glass-pink-txt h1{
+    font-family: 'Fraunces', serif; 
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 32px;
+}
+.egg-txt p, .glass-pink-txt p{
+font-family: 'Barlow', sans-serif;
+font-size: 17px; 
+font-weight: 600;
+line-height: 30px;
+color: #808397;
+margin-bottom: 40px;
+
+}
+.egg-txt span, .glass-pink-txt span{
+    font-family: 'Fraunces', serif; 
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000;
+}
+.berry-orange{
+    display: flex;
+}
+.berry, .orange{
+    background-image: url("./assets/image-graphic-design.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 600px; 
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-end;
+    justify-self: end;
+}
+.orange{
+    background-image: url("./assets/image-photography.jpg");
+    background-repeat: no-repeat;
+} */
+.berry h1, .orange h1{
+    font-family: 'Fraunces', serif; 
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 25px;
+    
+}
+.berry p, .orange p{
+    width:339px;
+    height: 81px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px; 
+    font-weight: 600;
+    line-height: 27px;
+    color: #3E7467;  
+    margin-bottom: 50px;
+}
+.testimoniais{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    justify-self: end;
+} 
+.people{
+    display: flex;
+    flex-direction: column; 
+}
+.people h1{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center; 
+    font-family: 'Fraunces', serif; 
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 160px;
+    letter-spacing: 5px;
+    color: #A7AAAD;  
+   
+}
+.emily, .thomas, .jennie{
+    width: 1428px;
+    height: 457px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    justify-self: end;
+
+
+}
+.emily img, .thomas img, .jennie img{
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    margin-bottom: 58px;
+}
+.emily p, .thomas p, .jennie p{
+    width:350px;
+    height: 96px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px; 
+    font-weight: 600;
+    line-height: 32px;
+    color: #5B636D;  
+    margin-bottom: 69px;
+}
+.emily h2, .thomas h2, .jennie h2{
+    font-family: 'Fraunces', serif; 
+    font-size: 18px; 
+    font-weight: 900;
+    line-height: 22px;
+    color: #24303E;  
+    margin-bottom: 9px;
+}
+.emily h4, .thomas h4, .jennie h4{
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px; 
+    font-weight: 600;
+    line-height: 25px;
+    color: #A7AAAD;  
+}
+.rodape{
+    width: 100%;
+    height: 797px;
+}
+.rodape-imgs{
+     width: 100%;
+    height: 447px;
+    display: flex;
+}
+.milk, .bergamota, .ice-cream, .sugar{
+    background-image: url("./assets/image-gallery-milkbottles.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+     width: 100%;
+    height: 447px; 
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-end;
+    justify-self: end;
+}
+.bergamota{
+    background-image: url("./assets/image-gallery-orange.jpg")
+}
+.ice-cream{
+    background-image: url("./assets/image-gallery-cone.jpg");
+}
+.sugar{
+    background-image: url("./assets/image-gallery-sugarcubes.jpg");
+}
+.midias-sociais{
+    width: 100%;
+    height: 350px;
+    background-color: #90D4C6;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    justify-self: end;
+}
+
+.menu-footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 57px;
+}
+.menu-footer li{
+    list-style: none;
+    margin-bottom: 88px;
+    color: #458D7E;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px; 
+    font-weight: 600;
+    line-height: 25px;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap:28px;
+}
