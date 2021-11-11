@@ -25,18 +25,17 @@ span:hover{
     color: rgb(7, 7, 7);  
 }
 .sunnyside{
-    background-image: url("./assets/image-header.jpg");
-    background-position: center;
+    background-image: url("./assets/image-header.jpg"); 
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 800px;
+    height: 700px;
     font-size: 16px;
 }
 .header-sunny{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   padding-top: 39px;
+    padding-top: 39px;
 }
 .header-sunny ul {
     display: flex;
@@ -46,15 +45,15 @@ span:hover{
   
 }
  .header-sunny li{
-font-family: 'Barlow', sans-serif;
-font-size: 18px; 
-font-weight: 600;
-line-height: 25px;
-color: #fff;
-list-style: none;
-display: flex;
-flex-direction: row;
-margin-right: 30px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px; 
+    font-weight: 600;
+    line-height: 25px;
+    color: #fff;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
 } 
  .header-sunny img{
     margin-top: 10px;
@@ -99,6 +98,7 @@ margin-right: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 596px;
 }
 .img-egg{
     background-image: url("./assets/image-transform.jpg");
@@ -111,7 +111,7 @@ margin-right: 30px;
 
 .egg-txt, .glass-pink-txt{
     width: 445px;
-    height: 285px;
+    height: 275px;
     margin: 147px 110px 157px 165px;
 }
 .egg-txt h1, .glass-pink-txt h1{
@@ -139,14 +139,14 @@ margin-bottom: 40px;
 }
 .berry-orange{
     display: flex;
+    /* border: 3px solid red; */
 }
 .berry, .orange{
     background-image: url("./assets/image-graphic-design.jpg");
-    background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
-    height: 600px; 
+    height: 500px; 
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -156,7 +156,7 @@ margin-bottom: 40px;
 .orange{
     background-image: url("./assets/image-photography.jpg");
     background-repeat: no-repeat;
-} */
+} 
 .berry h1, .orange h1{
     font-family: 'Fraunces', serif; 
     font-weight: 900;
@@ -244,20 +244,20 @@ margin-bottom: 40px;
 }
 .rodape{
     width: 100%;
-    height: 797px;
+    height: 775px;
+   
 }
 .rodape-imgs{
      width: 100%;
-    height: 447px;
+    height: 418px;
     display: flex;
 }
 .milk, .bergamota, .ice-cream, .sugar{
     background-image: url("./assets/image-gallery-milkbottles.jpg");
-    background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
      width: 100%;
-    height: 447px; 
+    height: 430px; 
     display: flex;
     flex-direction: column;
     align-items:center;
